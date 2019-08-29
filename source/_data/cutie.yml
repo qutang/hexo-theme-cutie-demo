@@ -1,0 +1,69 @@
+logo: /images/logo.svg
+slogan: This is a demo site for Hexo theme cutie, including demos and instructions to use hexo theme cutie.
+# Configure navigation menu, provide a relative link and a path to icon (icon should better be square)
+# If menu is absent, only "archive", "search" and "more" menu items will be preserved
+# Configurable menu items should not exeed 4, otherwise the last ones will be ignored
+menu:
+  Introduction: 
+    link: /introduction/
+  Tutorial:
+    link: /2018/02/12/hexo-theme-cutie-v2-tutorial/
+# As long as the name matches the font awesome icon name, you can add even more social links
+# As the tip: the social link can be a QRCODE link
+social:
+  github: https://github.com/qutang/hexo-theme-cutie
+
+maintainer:
+  url: https://qutang.dev
+
+global:
+  title: Hexo theme cutie demo site
+  subtitle: This is a subtitle
+  description: This is a description
+  author: Qu Tang
+  favicon: /images/favicon.png
+  site_tracker: google # google
+  comment_system: valine
+  icon_set: blue-shadow
+  use_animation: true
+  scheme: 
+    name: taurus
+    color: lime
+  announcement:
+    text: Hexo theme cutie is no longer maintained, feel free to fork and make your own version.
+
+google_analytics:
+  track_id: 
+
+google_adsense:
+  id: 
+
+page_404:
+  tencent_404: false
+
+disqus:
+  shortname: 
+
+gitment:
+  owner: 
+  repo: 
+  client_id: 
+  client_secret: 
+
+valine:
+  appId: uvf1sW7tg7XM61LtgGY5EKUM-gzGzoHsz
+  appKey: CaSUjr9v26gpuVqN99Rwc4Qv
+  placeholder: Feel free to leave some 💩 or 🎉
+
+livere:
+  id: 
+  uid: 
+
+post:
+  allow_share: true
+  allow_modification: false
+  allow_commercial: false
+  use_lightgallery: true
+  allow_comment: true
+  toc_level: 2
+  enable_unread_badge: false
