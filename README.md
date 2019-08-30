@@ -1,6 +1,9 @@
 # Hexo theme cutie demo site
 
 You may examine the setup of the site to understand the usage of hexo theme cutie.
+Here's a deployed demo: https://hexo-theme-cutie.qutang.dev.
+
+Or you may build the site locally.
 
 ## Installation
 
