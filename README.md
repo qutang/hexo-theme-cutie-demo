@@ -1,73 +1,36 @@
-# Hexo Theme Unit Test
+# Hexo theme cutie demo site
 
-This is a dummy Hexo site for theme unit test. You should test your theme before release.
+You may examine the setup of the site to understand the usage of hexo theme cutie.
 
-This test doesn't contain the default theme. You have to install the theme you want to test before starting.
+## Installation
+
+Make sure you have `node.js`, `yarn` installed.
+
+```bash
+>> git clone https://github.com/qutang/hexo-theme-cutie-demo.git
+>> yarn
+```
 
 ## Usage
 
-1. Clone this repository
+__Develop site__
 
-    ``` bash
-    $ git clone https://github.com/hexojs/hexo-theme-unit-test.git
-    ```
+Make sure you clone/download [hexo-theme-cutie](https://github.com/qutang/hexo-theme-cutie.git) to the `themes/cutie` folder. Then run
 
-2. Install your own theme and modify `theme` setting in `_config.yml`.
-3. Run server and start testing. Make sure all styles  are displayed properly.
-4. Once test is done, you can [submit your theme](https://hexo.io/docs/themes.html#Publishing)!
+```bash
+>> yarn run start
+```
 
-## Checklist
+__Build site from scratch__
 
-### `<head>`
+When you have not clone or download `hexo-theme-cutie`, run
 
-- Use the proper [DOCTYPE](https://en.wikipedia.org/wiki/Document_Type_Declaration).  
-  If you don't know which doctype you should use, `<!DOCTYPE html>` is recommended.
-- UTF8 charset
+```bash
+>> yarn run deploy
+```
 
-    ``` html
-    <meta charset="utf-8">
-    ```
+__Build site after downloading `hexo-theme-cutie`__
 
-- Proper titles for different pages
-- RSS support
-
-    ``` html
-    <link rel="alternate" href="path/of/rss" type="application/atom+xml">
-    ```
-
-- Favicon support
-
-    ``` html
-    <link rel="icon" href="path/of/favicon">
-    ```
-
-### Index
-
-- Only display excerpts. (Better with a "Read More" link)
-- [Pagination](https://hexo.io/docs/configuration.html#Pagination)
-
-### Post
-
-- Display post categories and tags.
-- Disqus comment support.
-- Display the post date.
-- Support `photo` and `link` layout.
-- Posts without title should be accessible.
-
-### Performance
-
-- Use [fragment_cache](https://hexo.io/docs/helpers.html#fragment_cache)  
-  It caches render result across post/pages, see [#1769](https://github.com/hexojs/hexo/issues/1769) for the impact
-
-### Optional
-
-- Responsive design
-- i18n
-- Post share
-- SEO
-
-## Resources
-
-- [Theme](https://hexo.io/docs/themes.html)
-- [Variables](https://hexo.io/docs/variables.html)
-- [Helpers](https://hexo.io/docs/helpers.html)
+```bash
+>> yarn run build
+```
