@@ -33,7 +33,7 @@ global:
     text: Hexo theme cutie is no longer maintained, feel free to fork and make your own version.
 
 google_analytics:
-  track_id: 
+  track_id: UA-38342303-4
 
 google_adsense:
   id: 
