@@ -102,4 +102,4 @@ lazyload:
 deploy:
   type:
 
-google_analytics: 
+google_analytics: UA-38342303-4
