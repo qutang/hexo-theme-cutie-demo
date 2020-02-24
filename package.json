@@ -24,7 +24,7 @@
     "hexo-deployer-git": "^2.0.0",
     "hexo-lazyload-image": "^1.0.2",
     "hexo-pagination": "^1.0.0",
-    "hexo-renderer-markdown-it": "^3.4.1",
+    "hexo-renderer-markdown-it": "^4.1.0",
     "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.0.2",
     "markdown-it-container": "^2.0.0",
