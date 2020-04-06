@@ -22,7 +22,7 @@
     "hexo-server": "^1.0.0",
     "hexo-browsersync": "^0.3.0",
     "hexo-deployer-git": "^2.0.0",
-    "hexo-lazyload-image": "^1.0.2",
+    "hexo-lazyload-image": "^1.0.7",
     "hexo-pagination": "^1.0.0",
     "hexo-renderer-markdown-it": "^3.4.1",
     "markdown-it": "^10.0.0",
