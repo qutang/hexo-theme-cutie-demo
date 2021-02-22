@@ -12,7 +12,7 @@
     "deploy": "hexo clean && rm -r -d -f source/images/jdenticon && rm -r -d -f themes && git clone https://github.com/qutang/hexo-theme-cutie.git themes/cutie && hexo generate && hexo generate"
   },
   "dependencies": {
-    "hexo": "^3.3.0",
+    "hexo": "^5.4.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-index": "^1.0.0",
